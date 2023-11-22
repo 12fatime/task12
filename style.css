@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: azure ;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:black;
+}
+.navbar ul{
+    float: right;
+    margin-right: 700px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    color:black;
+}
+
+.button{
+    cursor: pointer;
+    margin-left: 1000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: top 8px;
+}
+.two{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.two h1{
+    color: azure;
+    font-size: 50px;
+}
+.two p{
+    color: azure;
+    font-size: 30px;
+}
+
+.a{
+    max-width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+    align-items: center;
+}
+.a1{
+    max-width: 250px;
+    height: 350px;
+    background-color:white;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+@media screen  and (max-width:564px)  {
+   .a{
+    grid-template-columns: repeat(1,auto);
+    
+}
+.back{
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 9px;
+    height: 170px;
+}
+ul{
+    flex-direction: column;
+    justify-content: space-around;
+}
+   }
+img{
+    width: 250px;
+    height: 150px;
+   
+}
+button{
+    background-color: white;
+    color: black;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+    
+.five{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(44, 41, 41);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.five h1{
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
